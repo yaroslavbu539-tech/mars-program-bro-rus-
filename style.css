@@ -1,0 +1,447 @@
+@font-face {
+    font-family: "Gputeks123";
+    src: url("font/Gputeks-Regular.woff2") format("woff2"),
+           url("font/Gputeks-Regular.woff") format("woff");
+   }
+
+
+*{
+    font-family: Gputeks123;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 30px;
+    scroll-behavior: smooth;
+}
+h1{
+    font-size: 6rem;
+    line-height: 6rem;
+}
+h2{
+    font-size: 2rem;
+    line-height: 2rem;
+}
+p{
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+
+.head{
+background-color: #222735;
+height: 100vh;
+
+}
+.headercontent {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+left: 5%;
+}
+
+.head img{
+    position: absolute;
+}
+.rocket {
+    top: 50%;
+    left: 60%;
+    animation: rocket 10s linear 1;
+}
+.planet { 
+    right: 0;
+    bottom: 30px;
+}
+.head a {
+    background-color: #39435E;
+    padding: 10px 40px;
+    color: white;
+    text-decoration: none;
+}
+/* day one of trying to do this but i failed isnatntly idk how to do this i need help with this stupid homework */
+.head h2 {
+    color: white;
+    padding-top: 30px;
+       padding-bottom: 200px;
+}
+.head h1 {
+    color: white;
+    padding-bottom: 200px;
+}
+
+
+
+
+/* reminder sections must ALWAYS have height: 100vh; */
+
+
+
+
+.information1 {
+    background-color:  #2B344B;
+    height: 100vh;
+    display: flex;
+}
+.informationright {
+    display: flex; flex-direction: column; justify-content: space-around; padding: 30px; color: white;
+    height: 100%;
+     width: 50%;
+
+}
+.informationleft {
+    height: 100%;
+     width: 50%;
+    position: relative;
+}
+.marsandsun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.greenalien {
+    position: absolute;
+    width: 155px;
+    height: 197px;
+    background: url(img/section-2-alien.svg);
+    top: 35%;
+    left: 33%;
+    animation: greenalien 8s linear infinite;
+}
+.greenalien img {
+    position: absolute;
+    top: 33%;
+    left: 45%;
+    animation: alieneye 3s linear infinite;
+}
+
+
+
+.rover {
+    background: url("img/section-3-bg.svg") bottom/100% no-repeat, 
+    linear-gradient(358.26deg, #242A3A -2.15%, #2A3348 98%);
+     height: 100vh;
+     overflow: hidden;
+}
+.roverbottoooooooom img {
+    height: 50%;
+    height: 80%;
+    bottom: 5%;
+
+}
+.roverbottoooooooom{
+    height: 50%;
+    position: relative;
+
+}
+.rovertop{
+    height: 50%;
+ display: flex;
+ 
+}
+.roverright {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+.roverleft {
+display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    color: white;
+    height: 100%;
+    width: 50%;
+    
+}
+.machine {
+   position: absolute;
+   right: 40%;
+   animation: rover 10s linear infinite;
+}
+.green {
+   position: absolute;
+   left: -5%;
+   animation: greenguy 10s linear infinite;
+}
+
+.a {
+ color: white;
+ text-align: center;
+}
+.b {
+ color: white;
+ text-align: center;
+}
+.c {
+ color: white;
+ text-align: center;
+}
+.d {
+ color: white;
+ text-align: center;
+}
+
+
+
+
+
+.menu {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -240px;
+    width: 350px;
+    height: 400px;
+    background-color: #3E4761;
+    z-index: 100;
+    display: flex;
+    transition: 0.3s;
+}
+.menuleft {
+    width: 110px;
+    text-align: center;
+    padding-top: 30px;
+}
+.menuright {
+    width: 240px;
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+    
+}
+.menuleft p {
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+}
+.menuright a{
+   color: white;
+   padding-top: 20px;
+   text-decoration: none;
+}
+.menu:hover {
+    right: 0;
+}
+
+
+.red-planet {
+    background-color: #FFB762;
+        height: 100vh;
+        display:flex;
+        flex-direction: column; 
+        justify-content:space-around;
+        align-items: center;
+
+        
+}
+.maindiv {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 800px;
+    height: 800px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+            animation: spinningplanet 10s linear infinite;
+}
+.phobos{
+    position: absolute;
+    text-align: center;
+    top: 40;
+    left: -5%;
+     animation: spunik 10s linear infinite;
+}
+.deimos {
+ position: absolute;
+     text-align: center;
+     top: 80%;
+     left: 5%;
+      animation: spunik 10s linear infinite;
+}
+
+
+.nearfooter {
+background-color: #293246;
+height: 100vh;
+position: relative;
+}
+.bottomearth{
+ position: absolute;
+bottom: 0;
+width: 100%;
+}
+.topicture {
+position: absolute;
+top: 0;
+width: 100%;
+}
+.finalrocket {
+position: absolute;
+bottom: 40%;
+right: 30%;
+}
+.just_A {
+position: absolute;
+bottom: 15%;
+right: 30%;
+background-color: #394C76;
+color: white;
+text-decoration: 0;
+padding: 35px;
+}
+.text2 {
+    position: absolute;
+bottom: 40%;
+left: 1%;
+color: white;
+width: 67%;
+}
+
+
+
+.final_text {
+    background-color: #FFB876;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes rocket {
+    0% {
+        transform: rotate(90deg);
+        top: 100%;
+        left: 0;
+        
+    }
+    50%
+    {
+        transform: rotate(45deg);
+        top: 20%;
+        left: 35%;
+    }
+    100%
+    {
+        transform: rotate(0deg);
+        top: 50%;
+        left: 60%;
+    }
+}
+@keyframes greenalien {
+    0% {
+        top: 35%;
+    }
+    50% {
+        top: 55%;
+    }
+    100%{
+        top: 35%;
+    }
+}
+@keyframes alieneye {
+    0% {
+        left: 38%;
+    }
+    50% {
+        left: 48%;
+    }
+    100%{
+        left: 38%;
+    }
+}
+@keyframes rover {
+    0% {
+        transform: rotateY(180deg);
+        left: 35%;
+    }
+    15% {
+        left: 75%;
+         transform: rotateY(0deg);
+    }
+    30%{
+        left: 25%;
+        transform: rotateY(0deg);
+    }
+    45%{
+        left: 85%;
+         transform: rotateY(0deg);
+    }
+    60%{
+        left: 45%;
+        transform: rotateY(180deg);
+    }
+    80%{
+                left: 45%;
+        transform: rotateY(180deg);
+    }
+    100%{
+        left: 130%;
+        transform: rotateY(180deg);
+    }
+}
+@keyframes greenguy {
+    0% {
+        left: -30%;
+    }
+    15% {
+        left: -5%;
+    }
+    30%{
+        left: 1%;
+    }
+    45%{
+        left: 10%;
+
+    }
+    60%{
+        left: 15%;
+    }
+    80%{
+     left: 20%;
+    }
+    100%{
+        left: 115%;
+    }
+}
+@keyframes spinningplanet {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes spunik {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}

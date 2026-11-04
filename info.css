@@ -1,0 +1,184 @@
+@font-face {
+    font-family: "Gputeks123";
+    src: url("font/Gputeks-Regular.woff2") format("woff2"),
+        url("font/Gputeks-Regular.woff") format("woff");
+}
+
+
+* {
+    font-family: Gputeks123;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 30px;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 6rem;
+    line-height: 6rem;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.firstsection {
+    height: 100vh;
+    background-color: #222837;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstsection h3 {
+  color: white;
+}
+
+.firstsection h2 {
+  color: white;
+text-align: center;
+}
+ .firstsection p{
+     color: rgb(255, 132, 0);
+ }
+ .div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+     
+ }
+ .div1 img{
+    height: 260px;
+ }
+.divcard1 {
+background-color: #39435C;
+margin: 50px;
+width: 300px;
+text-align: center;
+padding: 10px;
+}
+
+
+
+.secondarysector {
+    height: 60vh;
+    background-color:  #222837;
+   text-align: center;
+}
+.secondarysector p {
+    color: white;
+}
+.secondh {
+    color: white;
+        padding-top: 50px;
+}
+.h2 {
+    color: #363D53;
+        padding-top: 50px;
+}
+
+
+
+.terentorysection {
+    background: url("img/section-3-bg.svg") bottom/100% no-repeat, 
+    linear-gradient(358.26deg, #242A3A -2.15%, #2A3348 98%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainleavediv{
+    background-color: bisque;
+    width: 1500px;
+    height: 500px;
+    padding: 50px;
+
+}
+.nice-job {
+    color: rgb(105, 85, 45);
+}
+.idkwhattocall {
+    color: rgb(105, 85, 45);
+    text-align: right;
+}
+.geroye {
+    color: rgb(105, 85, 45);
+    text-align: right;
+}
+.armstrong {
+    color: rgb(105, 85, 45);
+    text-align: center;
+}
+
+
+
+
+
+
+.finalfooter {
+    height: 100vh;
+    background-color: #FD9B40;
+    padding-top: 100px;
+}
+.formgoogledrive {
+   width: 1000px;
+    margin: auto;
+}
+.fomrh2 {
+    background-color: #202535;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.formstructure {
+    background-color: #353F5A;
+    padding: 100px;
+}
+.forminput {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.formbocks {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.formbox {
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+
+}
+.label-form {
+    font-size: 20px;
+    color: white;
+}
+.form-button {
+    font-size: 39px;
+    padding: 0 30px;
+    display: block;
+    margin: 30px auto;
+}
+.goback {
+    background-color: #202535;
+    position: fixed;
+    color: white;
+    z-index: 100;
+    left: 0;
+    top: 30px;
+    text-decoration: none;
+    padding: 10px 30px;
+}
